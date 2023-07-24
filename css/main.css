@@ -107,6 +107,10 @@ body {
 }
 /* when hamburger is X (END) */
 
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: var(--brandtwo);
+}
+
 h1 {
     padding-bottom: 1rem;
     font-weight: 600;
