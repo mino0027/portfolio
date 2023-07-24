@@ -14,3 +14,61 @@ body {
 .test {
     color: var(--brandone);
 }
+
+/* adding a seemless transition from hamburger to X on mobile */
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+/* outlining required states of hamburger of how to look*/
+
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: var(--brandone);
+    display: block;
+    transition: all 0.2s;
+} /* outlines length of transition to X */
+
+/* Adds Space between the lines */
+.middle-bar{
+    margin: 5px auto;
+}
+
+/*  when hamburger navbar is opened (START) */
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+}
+
+/* alpha allows the item to blend/ opactity to the background */
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+/* when hamburger is opened (END) */
+
+/* when hamburger is X (START) */
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+/* when hamburger is X (END) */
+
+
