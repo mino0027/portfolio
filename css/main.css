@@ -101,3 +101,6 @@ body {
 }
 /* when hamburger is X (END) */
 
+h1 {
+    padding-bottom: 1rem;
+}
