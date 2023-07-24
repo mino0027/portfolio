@@ -1,7 +1,7 @@
 :root {
     --brandcolor: black;
     --brandone: white;
-    --brandtwo: ;
+    --brandtwo: rgb(110, 44, 234);
     --brandthree: ;
 }
 /*currently deciding on colors, black/white as placeholders */
@@ -19,10 +19,6 @@ img {
 
 body {
     background-color: var(--brandcolor);
-}
-
-.test {
-    color: var(--brandone);
 }
 
 /* adding a seemless transition from hamburger to X on mobile */
@@ -80,5 +76,4 @@ body {
     transform: rotate(0);
 }
 /* when hamburger is X (END) */
-
 
