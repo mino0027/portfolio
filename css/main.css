@@ -4,8 +4,17 @@
     --brandtwo: ;
     --brandthree: ;
 }
+/*currently deciding on colors, black/white as placeholders */
 
-/* creating variable above */
+#wrapper {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: pink;
+    text-align: center;
+    padding: 0;
+}
+
+/* creating variables above */
 
 body {
     background-color: var(--brandcolor);
