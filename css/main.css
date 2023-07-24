@@ -1,11 +1,17 @@
 :root {
     --brandcolor: black;
     --brandone: white;
-    --brandtwo: rgb(110, 44, 234);
+    --brandtwo: rgb(216, 36, 36);
     --brandthree: ;
 }
-/*currently deciding on colors, black/white as placeholders */
 
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*currently deciding on colors, black/white as placeholders */
+/* font-family: 'Alice', serif;
+font-family: 'Josefin Sans', sans-serif; for fonts*/
 #wrapper {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -34,7 +40,7 @@ img {
     to {
         opacity: 1;
         filter: blur(0);
-        border-radius: 5px;
+        border-radius: 25px;
     }
 }
 
@@ -103,6 +109,8 @@ body {
 
 h1 {
     padding-bottom: 1rem;
+    font-weight: 600;
+    color: var(--brandone);
 }
 
 p {
