@@ -1,0 +1,16 @@
+:root {
+    --brandcolor: black;
+    --brandone: white;
+    --brandtwo: ;
+    --brandthree: ;
+}
+
+/* creating variable above */
+
+body {
+    background-color: var(--brandcolor);
+}
+
+.test {
+    color: var(--brandone);
+}
