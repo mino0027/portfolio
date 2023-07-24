@@ -104,3 +104,16 @@ body {
 h1 {
     padding-bottom: 1rem;
 }
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.paraone {
+    color: var(--brandone);
+}
+
+.standout {
+    color: var(--brandtwo);
+}
