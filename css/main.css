@@ -154,7 +154,7 @@ a {
 .gridas {
     text-decoration: none;
 }
-
+/* when BS nav changes formation, the rest of the site will change, reflecting the new "desktop" type view*/
 @media screen and (min-width: 992px){
     body{
       background-color: aquamarine;
