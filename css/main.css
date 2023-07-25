@@ -12,7 +12,7 @@ body {
 /*currently deciding on colors, black/white as placeholders */
 /* font-family: 'Alice', serif;
 font-family: 'Josefin Sans', sans-serif; for fonts*/
-#wrapper {
+.wrapper {
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: center;
@@ -129,6 +129,7 @@ p {
 
 .paraone {
     color: var(--brandone);
+    text-align: center;
 }
 
 .standout {
