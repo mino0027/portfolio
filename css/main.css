@@ -167,9 +167,23 @@ body {
     line-height: 2.5rem;
 }
 
+footer {
+    font-size: .44rem;
+}footer :nth-child(4){
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.copyright {
+    height: min-content;
+}
+
 /* when BS nav changes formation, the rest of the site will change, reflecting the new "desktop" type view*/
 @media screen and (min-width: 992px){
     body{
       background-color: aquamarine;
+    }
+    footer {
+        font-size: .7rem;
     }
   }
