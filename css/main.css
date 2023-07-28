@@ -118,7 +118,7 @@ h1 {
 
 h2 {
     padding-bottom: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     text-align: justify;
 }
 
@@ -154,6 +154,19 @@ a {
 .gridas {
     text-decoration: none;
 }
+
+
+/* adds to BS animate to add a lengthier delay */
+.animate__rubberBand {
+    animation-delay: 10s;
+}
+
+/* feedback recieved said make text bigger*/
+body {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
 /* when BS nav changes formation, the rest of the site will change, reflecting the new "desktop" type view*/
 @media screen and (min-width: 992px){
     body{
