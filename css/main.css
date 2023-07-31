@@ -163,13 +163,13 @@ a {
     animation-delay: 19s;
 }
 .animate__fadeIn {
-    animation-delay: 15s;  
+    animation-delay: 10s;  
 }
 .animate__zoomInUp {
-    animation-delay: 15s;  
+    animation-delay: 10s;  
 }
 .animate__fadeInDown {
-    animation-delay: 15s;  
+    animation-delay: 9s;  
 }
 
 /* feedback recieved said make text bigger*/
