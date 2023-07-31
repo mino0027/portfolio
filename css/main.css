@@ -158,7 +158,16 @@ a {
 
 /* adds to BS animate to add a lengthier delay */
 .animate__rubberBand {
-    animation-delay: 10s;
+    animation-delay: 15s;
+}
+.animate__fadeIn {
+    animation-delay: 15s;  
+}
+.animate__zoomInUp {
+    animation-delay: 15s;  
+}
+.animate__fadeInDown {
+    animation-delay: 15s;  
 }
 
 /* feedback recieved said make text bigger*/
