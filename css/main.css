@@ -191,13 +191,7 @@ footer {
     padding-top: .5rem;
 }
 
-.js {
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-}
 .cover {
-    z-index: 1;
     padding-top: 1rem;
     padding-bottom: 0;
     text-align: center;
