@@ -178,6 +178,15 @@ footer {
     height: min-content;
 }
 
+/* web dev css following */
+.git {
+    border-radius: 17px;
+}
+
+.padding-git {
+    padding-bottom: .5rem;
+}
+
 /* when BS nav changes formation, the rest of the site will change, reflecting the new "desktop" type view*/
 @media screen and (min-width: 992px){
     body{
