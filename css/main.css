@@ -129,10 +129,13 @@ p {
 .paraone {
     color: var(--brandone);
     text-align: center;
+    font-size: .9rem;
 }
 
 .standout {
     color: var(--brandtwo);
+    font-size: .9rem;
+    font-weight: bolder;
 }
 
 .paratwo {
@@ -176,7 +179,7 @@ body {
 }
 
 footer {
-    font-size: .44rem;
+    font-size: .4rem;
 }footer :nth-child(4){
     text-align: right;
     padding-right: 1rem;
