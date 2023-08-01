@@ -140,6 +140,7 @@ p {
     color: var(--brandtwo);
     font-size: .9rem;
     font-weight: bolder;
+    line-height: 0;
 }
 
 .paratwo {
