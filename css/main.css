@@ -20,6 +20,10 @@ font-family: 'Josefin Sans', sans-serif; for fonts*/
 img {
     max-width: 100%;
 }
+
+.borderclass {
+    border-radius: 20px;
+}
 /* creating variables above */
 
 /* on page load animation*/
@@ -210,19 +214,8 @@ footer {
 
 /* design html css */
 
-.bgc {
-    background-color: yellow;
-    width: 15rem;
-    height: 15rem;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-.bgf {
-    background-color: orange;
-    width: 15rem;
-    height: 15rem;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+.parafour {
+    text-align: justify;
 }
 
 /* when BS nav changes formation, the rest of the site will change, reflecting the new "desktop" type view*/
