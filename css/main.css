@@ -8,6 +8,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.logo {
+    width: 100px;
+}
+
 /*currently deciding on colors, black/white as placeholders */
 /* font-family: 'Alice', serif;
 font-family: 'Josefin Sans', sans-serif; for fonts*/
