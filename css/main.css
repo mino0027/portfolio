@@ -1,8 +1,25 @@
+.skip-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .skip-links a{
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color:white;
+    padding: .5em 1em;
+    font-weight: bold;
+  }
+/* hides skip links for regular users*/
+
 :root {
     --brandcolor: black;
     --brandone: white;
     --brandtwo: rgb(216, 36, 36);
 }
+/* creating variables above */
+
 
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -28,7 +45,6 @@ img {
 .borderclass {
     border-radius: 20px;
 }
-/* creating variables above */
 
 /* on page load animation*/
 
@@ -57,6 +73,7 @@ img {
 body {
     background-color: var(--brandcolor);
 }
+/* first use but will be used plenty more, using a custom variable we now can adjust colors and use brand colors everywhere that would change if the parent varaivle at the top of the css was changed*/
 
 /* adding a seemless transition from hamburger to X on mobile */
 
@@ -169,16 +186,16 @@ a {
 
 /* adds to BS animate to add a lengthier delay */
 .animate__rubberBand {
-    animation-delay: 19s;
+    animation-delay: 9s;
 }
 .animate__fadeIn {
-    animation-delay: 10s;  
+    animation-delay: 8s;  
 }
 .animate__zoomInUp {
-    animation-delay: 10s;  
+    animation-delay: 8s;  
 }
 .animate__fadeInDown {
-    animation-delay: 9s;  
+    animation-delay: 8s;  
 }
 
 /* feedback recieved said make text bigger*/
