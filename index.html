@@ -33,7 +33,7 @@
             <ul class="navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link text-danger animate__animated animate__bounce" aria-current="page" href="#">Home</a>
-              </li>
+              </li> <!--aria current allows the accessibility user tp know the page theyre on-->
               <li class="nav-item">
                 <a class="nav-link text-white" href="webdev.html" aria-label="link to web dev page">Web Development Portfolio</a>
               </li>
@@ -42,7 +42,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="design.html" aria-label="link to design page">Design Portfolio</a>
-              </li>
+              </li> <!--aria labels (used throughout every link on page) allows accessibility user to know what the link does-->
               <li class="nav-item">
                 <a class="nav-link text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJoLG5Jd72EC3zrRH7qX832X0xO9iw9wAME1IFrRc4tsDQA/viewform" target="_blank" aria-label="external link to direct contact page">Contact Me</a>
               </li>
@@ -50,29 +50,29 @@
           </div>
         </div>
       </nav>
-      <div class="wrapper" id="main" role="main">
+      <div class="wrapper" id="main" role="main"> <!--aria role main and id main allow accessibility access to main content-->
         <div>
             <header role="banner">
-                <h1 class="load">
+                <h1 class="load"> <!--on load, triggers animations with same class-->
                     Welcome to Chris' Portfolio
-                </h1>
+                </h1> <!--outlining breakpoints and what images to use on said breakpoints-->
                     <img 
                     class="load img-fluid"
                     srcset="
                     images/distinct_1024x683.jpeg 512w,
-                    images/distinct.jpg 992w"
+                    images/distinct.jpg 992w" 
                     sizes="
                     (min-width:992px) 992px, 100vw"
                     src="images/distinct.jpg" 
-                    alt="photo of mushroom in Quebec">
+                    alt="photo of mushroom in Quebec"> <!--properly optimized images used throughout entire website-->
             </header>
-            <p class="paraone animate__animated animate__backInRight animate__slow">
+            <p class="paraone animate__animated animate__backInRight animate__slow"> <!--animate_animated required to use any animate.css animations followed by the animatation desired-->
             Crafting distinct digital experiences, allowing
             </p><p class="standout animate__animated animate__bounceInLeft animate__delay-1s animate__slower">you to standout.</p>
         </div>
         <br>
         <div class="animate__animated animate__backInUp animate__slow">
-          <p class="paratwo text-white">
+          <p class="paratwo text-white"> <!--example of bootstrap (asking for white text)-->
             Thanks for landing on my portfolio page! The intentions for this website are that is a mobile-first designed site, so feel free to load this up on your phone. However, it has still been respectfully built for desktop!
             Using only CSS & HTML, the goal of this site is to showcase my abilities & potential. Far from a "closing of the chapter" & more of check point. There is plenty more to learn & experiment with.
         </div>
@@ -80,7 +80,7 @@
         <br>
         <div class="container newbg" role="complementary">
           <div class="row animate__animated animate__fadeIn animate__slower">
-            <div class="col-4 text-center">
+            <div class="col-4 text-center"> <!--bootstrap grid utilized here, asking for 3 columns each 4 width wide on a size 12 grid-->
               <img 
               class="img-fluid gridimg"
               srcset="
@@ -131,7 +131,7 @@
               <a class="btn text-danger btn-outline-danger animate__animated animate__rubberBand" role="button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJoLG5Jd72EC3zrRH7qX832X0xO9iw9wAME1IFrRc4tsDQA/viewform" aria-label="external link to direct contact page">Contact Me</a>
         </div>
       </div>
-      <footer role="contentinfo">
+      <footer role="contentinfo"> <!--this area is a smaller nav to allow user to get somewhere from the bottom of a page-->
         <nav class="navbar navbar-expand">
           <div class="container-fluid">
             <a class="text-white navbar-brand" href="index.html" aria-label="link to home page">            
@@ -143,7 +143,7 @@
               <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link text-danger animate__animated animate__bounce" aria-current="page" href="#" >Home</a>
-                </li>
+                </li> <!--aria current allows the accessibility user tp know the page theyre on-->
                 <li class="nav-item">
                   <a class="nav-link text-white" href="webdev.html" aria-label="link to web dev page">Web Development Portfolio</a>
                 </li>
